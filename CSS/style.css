@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: pink;
+    background: rgb(172, 131, 138) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,5 +47,8 @@ form .display input{
     box-shadow: none;
 }
 form input.equal{
-    width: 125px;
+    width: 145px;
+}
+form input.operator{
+    color: rgb(172, 131, 138);
 }
